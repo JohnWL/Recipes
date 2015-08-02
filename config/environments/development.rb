@@ -41,4 +41,6 @@ Rails.application.configure do
   
   Paperclip.options[:command_path] = "/usr/bin/"
   
+  config.action_mailer.default_url_options = { host: 'rails-apps-johnwl.c9.io' }
+  
 end
